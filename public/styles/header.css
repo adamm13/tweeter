@@ -1,0 +1,21 @@
+.user {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 100%;
+  background-color: darkgoldenrod;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/images/asfalt-light.png");
+  
+
+}
+
+#username {
+  bottom: 35px;
+  font-size: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  
+}
+

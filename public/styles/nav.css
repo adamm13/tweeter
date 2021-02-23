@@ -1,0 +1,46 @@
+nav {
+  height: 120px;
+  position: fixed;
+  display: flex;
+  background-color: #4056A1;
+  color: #FFFFFF;
+  justify-content: space-between;
+  width: 100%;
+  top : 0;
+  right : 0;
+  left: 0;
+  padding: 1.5em;
+  z-index: 1;
+  
+}
+
+nav #tweeter {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  font-family: 'Bungee', cursive, sans-serif;
+  font-size: 1.5em
+}
+
+nav button {
+  background: transparent;
+  padding: 5px;
+  display: flex;
+  border: none;
+}
+
+nav img {
+  display: flex;
+  width: 25px;
+  height: 20px;
+}
+
+.new-tweet {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  justify-content: space-between;
+  font-size: 70%
+}
