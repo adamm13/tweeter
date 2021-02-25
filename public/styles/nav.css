@@ -30,6 +30,7 @@ nav button {
 nav img {
   width: 25px;
   height: 20px;
+  animation: arrow 1s linear infinite;
 }
 
 .new-tweet {
@@ -42,3 +43,17 @@ nav img {
   font-size: 70%
 }
 
+@keyframes arrow{
+  0%{
+    transform: translateY(2px);
+  }
+  25%{
+    transform: translateY(5px);
+  }
+  50%{
+    transform: translateY(8px);
+  }
+  100%{
+    transform: translateY(10px);
+}
+}

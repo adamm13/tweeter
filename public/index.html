@@ -3,6 +3,7 @@
   <head>
     <!-- Meta Information -->
     <title>Tweeter - Home Page</title>
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
 
     <!-- External CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css" />
@@ -20,6 +21,7 @@
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous"></script>
 
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
@@ -32,7 +34,7 @@
       <span id = 'tweeter'>tweeter</span>
             <div class="new-tweet">
               <span><strong>Write</strong> a new tweet</span>
-              <button type = 'button'><img src = '/images/arrows2.png'></button>
+              <button id = btn type = 'button'><img src = '/images/arrows2.png'></button>
               </div>
     </nav>
     <header class = "user">
@@ -49,7 +51,8 @@
     <main class="container">
       <section class="new-tweet">
 
-  <form action="/tweets" method="POST">
+  <form class = 'newTweet' action="/tweets" method="POST">
+    <div id = errormsg> <img src = "/images/close.png"></div>
     <!--<label for="tweet-text">What are you humming about?</label> -->
     <textarea class = 'tweet-text' name="text" placeholder = 'What are you humming about?'id="tweet-text"></textarea>
     <div class = 'tweetnum'>
@@ -59,7 +62,7 @@
   </form>
 </section>
       <section class = "tweet-container">
-          <article>
+         <!-- <article>
             <div class = "tweet-header">
               <div>
                 <img src = "/images/joker.png">
@@ -79,7 +82,7 @@
               </div>
             </div>
           </article>
-                    <article>
+       <article>
             <div class = "tweet-header">
               <div>
                 <img src = "/images/scarecrow.png">
@@ -88,17 +91,17 @@
               <p id = 'at'>@Dr.Crane</p>
             </div>
             <div class = "tweet">
-              <p>As you know, madness is like gravity...all it takes is a little push.</p>
+              <p>There is nothing to fear but fear itself.</p>
             </div>
             <div class = "buttons">
-              <p>10 days ago</p>
+              <p>13 days ago</p>
             <div id = 'icons'>
               <button><img src = "/images/flag.png"></button>
               <button><img src = "/images/retweet.png"></button>
               <button><img src = "/images/heart.png"></button>
               </div>
             </div>
-          </article>
+          </article> -->
       </section>
     </main>
   </body>
