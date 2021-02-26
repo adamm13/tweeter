@@ -7,13 +7,13 @@ This repository inlcuded some starter back-end code which I built upon to practi
 - This project includes addition animation effects for an enhanced user interface and active button scrolling.
 
 ## Screenshots:
-- iPad Landscape View
-!["Screenshot of Tweeter on iPad in Landscape mode"](https://github.com/adamm13/tweeter/blob/master/docs/ipadwide.png)
-- iPad Portrait View
-!["Screenshot of Tweeter on iPad in Portrait mode"](https://github.com/adamm13/tweeter/blob/master/docs/ipadlong.png)
-- Desktop View
-!["Screenshot of Tweeter on Desktop"](https://github.com/adamm13/tweeter/blob/master/docs/desktop.png)
 
+!["Screenshot of Tweeter on iPad in Landscape mode"](https://github.com/adamm13/tweeter/blob/master/docs/ipadwide.png)
+- iPad Landscape View
+!["Screenshot of Tweeter on iPad in Portrait mode"](https://github.com/adamm13/tweeter/blob/master/docs/ipadlong.png)
+- iPad Portrait View
+!["Screenshot of Tweeter on Desktop"](https://github.com/adamm13/tweeter/blob/master/docs/desktop.png)
+- Desktop View
 ## Getting Started
 
 1. Fork this repository, then clone your fork of this repository.
