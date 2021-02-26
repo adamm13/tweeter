@@ -26,6 +26,7 @@
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
     <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
+    <script type="text/javascript" src="/scripts/scroll.js"></script>
   </head>
 
   <body>
@@ -34,16 +35,16 @@
       <span id = 'tweeter'>tweeter</span>
             <div class="new-tweet">
               <span><strong>Write</strong> a new tweet</span>
-              <button id = btn type = 'button'><img src = '/images/arrows2.png'></button>
+              <button onclick="myFunction()" id = btn type = 'button'><img src = '/images/down-arrow.png'></button>
               </div>
     </nav>
+    <!-- Batman user header -->
     <header class = "user">
       <div class = "userDisplay">
         <img src="/images/batman-icon.png">
       </div>
-      <br>
-      <div>
-        <p id = 'username'><strong>Bruce </strong> Wayne</p>
+        <div id = 'username'><img src = "/images/check.png"></div>
+        <p><strong>Bruce </strong> Wayne</p>
       </div>
     </header>
 
@@ -52,7 +53,7 @@
       <section class="new-tweet">
 
   <form class = 'newTweet' action="/tweets" method="POST">
-    <div id = errormsg> <img src = "/images/close.png"></div>
+    <div id = errormsg></div>
     <!--<label for="tweet-text">What are you humming about?</label> -->
     <textarea class = 'tweet-text' name="text" placeholder = 'What are you humming about?'id="tweet-text"></textarea>
     <div class = 'tweetnum'>
@@ -62,46 +63,6 @@
   </form>
 </section>
       <section class = "tweet-container">
-         <!-- <article>
-            <div class = "tweet-header">
-              <div>
-                <img src = "/images/joker.png">
-                <p>Joker</p>
-              </div>
-              <p id = 'at'>@RedHood</p>
-            </div>
-            <div class = "tweet">
-              <p>As you know, madness is like gravity...all it takes is a little push.</p>
-            </div>
-            <div class = "buttons">
-              <p>10 days ago</p>
-            <div id = 'icons'>
-              <button><img src = "/images/flag.png"></button>
-              <button><img src = "/images/retweet.png"></button>
-              <button><img src = "/images/heart.png"></button>
-              </div>
-            </div>
-          </article>
-       <article>
-            <div class = "tweet-header">
-              <div>
-                <img src = "/images/scarecrow.png">
-                <p>Scarecrow</p>
-              </div>
-              <p id = 'at'>@Dr.Crane</p>
-            </div>
-            <div class = "tweet">
-              <p>There is nothing to fear but fear itself.</p>
-            </div>
-            <div class = "buttons">
-              <p>13 days ago</p>
-            <div id = 'icons'>
-              <button><img src = "/images/flag.png"></button>
-              <button><img src = "/images/retweet.png"></button>
-              <button><img src = "/images/heart.png"></button>
-              </div>
-            </div>
-          </article> -->
       </section>
     </main>
   </body>

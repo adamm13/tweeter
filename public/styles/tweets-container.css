@@ -62,3 +62,7 @@ article:hover {
   border: none
   
 }
+
+html {
+  scroll-behavior: smooth;
+}

@@ -2,7 +2,7 @@ nav {
   height: 120px;
   position: fixed;
   display: flex;
-  background-color: #1DA1F2;
+  background-color: #4daeb6;
   color: #FFFFFF;
   justify-content: space-between;
   width: 100%;
@@ -23,11 +23,13 @@ nav #tweeter {
 
 nav button {
   background: transparent;
-  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
   border: none;
 }
 
-nav img {
+nav #btn img {
   width: 25px;
   height: 20px;
   animation: arrow 1s linear infinite;
@@ -42,6 +44,10 @@ nav img {
   justify-content: space-between;
   font-size: 70%
 }
+
+/*
+* Animates arrow to strengthen UI for the client.
+*/
 
 @keyframes arrow{
   0%{

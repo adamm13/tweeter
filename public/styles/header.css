@@ -4,18 +4,21 @@
   flex-direction: column;
   height: 400px;
   width: 100%;
-  background-color: #9e9e9e;
+  background-color: #969696;
   align-items: center;
   justify-content: center;
   background-image: url("/images/asfalt-light.png");
-  
 
 }
 
 #username {
   font-size: 30px;
   font-family: 'Source Sans Pro', sans-serif;
-  
+  flex-direction: column;
+}
+
+#username p {
+  font-size: 40px;
 }
 
 .user .userDisplay {
@@ -26,5 +29,9 @@
   height: 256px; 
   width: 265px;
 }
-}
 
+#username img {
+  width: 32px;
+  height: 32px;
+  margin-bottom: -15px;
+}
